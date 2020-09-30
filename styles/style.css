@@ -1,0 +1,284 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+/*CSS reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,hr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+  color: #000;
+  text-decoration: none
+}
+/*CSS Reset*/
+.oneStar {
+	display: inline-block;
+	margin-left: -15px;
+	content:url('../svg/oneStar.svg');
+}
+.decoration {
+	position: absolute;
+}
+.decorationRight {
+	position: absolute;
+	left: 1119px;
+	transform: rotate(180deg);
+	
+}
+.decorationRightArc {
+	position: absolute;
+	left: 805px;
+}
+li {
+	display:inline-block;
+}
+h1 {
+	padding-left:256px;
+	font-size: 48px;
+}
+h2 {
+	font-size:40px;
+	margin: 0px 0px 23px 83px;
+}
+h3 {
+	font-size: 36px;
+	margin-bottom: 10px; 
+}
+h4 {
+	font-size: 18px;
+}
+p {
+	font-family: 'Times New Roman';
+	margin-left: 40px;
+	
+}
+body {
+	min-width: 1300px;
+	font-family: 'Risque';
+}
+header, footer {
+	height: 130px;
+	width: 100&;
+	background: #000000;
+}
+#logo {
+	float: left;
+	padding: 25px 120px 36px 120px;
+	font-size: 70px;
+	color: #FFFFFF;
+}
+.dot::after {
+	font-size: 70px;
+	content: ".";
+	color: #00FFF0;
+}
+header nav {
+	height:76.6px;
+}
+header ul {
+	float: right;
+	padding: 59px 80px 0px 422px;
+	font-family: 'Times New Roman';
+}
+header a {
+	font-size: 18px;
+	color: #C0C0C0;
+}
+
+
+header li {
+	display: inline-block;
+	padding-right: 40px
+}
+
+header hr {
+	float:right;
+	width: 767px; 
+	margin-right: 120px;
+	border: 1px solid #C7DEDF;
+}
+
+main {
+	margin: 30px 8vw 15px 10vw;
+}
+section {
+	position: relative;
+	margin-top: 15px;
+	background: #FCFCFC;
+	width:1200px;
+}
+
+#hello {
+	height: 412px;	
+}
+
+
+#helloText {
+	padding: 15px 0px 61px 256px;
+	font-size:24px;
+}
+#contactMe {
+	position: relative;
+	z-index:1;
+	left: 21%;
+	font-size: 40px;
+	padding: 6.5px 99px;
+	background: #000000;
+	color: #FFFFFF;
+	border-radius: 48px;
+}
+#contactMe:hover {
+	background: #00FFF0;
+	color: #000000;
+}
+#photo {
+	position: absolute;
+	left: 634px;
+	height: 412px;
+}
+#skillsTable {
+	margin-left: 174px;
+	height: 441px;
+}
+.skills li {
+	display: block;
+	font-size: 24px;
+	margin-left: 41px;
+	margin-bottom: 5px;
+	display: block;
+}
+.skills{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+}
+section article {
+	background: #FFFFFF;
+	width: 848px;
+	margin-bottom: 20px;	
+	margin-left: 178px;
+	padding: 3px 10px 15px;
+}
+.gitLink {
+	background:#00FFF0;
+}
+#buttonContainer {
+	height: 80px;
+	margin:23px 0px 0px 750px;
+}
+#moreProjects {
+	padding: 7px 30px;
+	background: #00FFF0;
+	border-radius: 80px;
+	font-size: 40px;
+}
+#moreProjects:hover {
+	background: #000000;
+	color: #FFFFFF
+}
+
+.aboutEducation {
+	margin-left:198px;
+	background:#FCFCFC;
+}
+
+.educationStep {
+	width: 486px;
+	padding: 11px 0px 16px;
+	margin-left: 55px;
+	background: #FFFFFF;
+}
+.educationStep p {
+	margin-left: 23px;
+}
+
+.contacts {
+	position: relative;
+	top: 41px;
+	width: 290px;
+	left: 10vw;
+}
+
+.contacts li {
+	fill: red;
+	margin-right: 10px;
+}
+
+#madeBy {
+	position: relative;
+	text-align: center;
+	width: 500px;
+	left: 470px;
+	top: -48px;
+	color: #FFFFFF;
+}
+#madeBy hr {
+	margin-bottom:3px;
+	border: 0.1px solid #C7DEDF;
+}
+
+#darkness {
+	text-align:center;
+	z-index: 100;
+	background: rgba(102, 102, 102, 0.3);
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+	display:none;
+}
+
+#darkness:target {display: block;}
+
+#popup{
+	border-radius: 30px;
+	position: relative;
+	left: 35%;
+	top: 25%;
+	height: 200px;
+	width: 500px;
+	background: #DBD8D8;
+}
+
+#popup h2 {
+	margin: 0 0 53px;
+}
