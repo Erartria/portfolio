@@ -1,9 +1,9 @@
 # WEB
 
-**Ссылка на Figma:** 
+**Шаблон в Figma:** 
 https://www.figma.com/file/ncq7auGSBy5tK7O68ks9Ma/Untitled?node-id=0%3A1 
 
-**Ссылка на сайт:**
+**GitPages:**
 <https://erartria.github.io/portfolio/>
 
 
