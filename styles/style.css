@@ -308,3 +308,22 @@ section article {
 	top: -40px;
 	left: 245px
 }
+
+.full-photo {
+	text-align: center;
+}
+.gallery-photo_previews {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.gallery-photo_preview img {
+	background: black;
+	border: 3px solid gray;
+	height: 100px;
+	width: 114px;
+}
+.gallery-photo_preview img:hover {
+	border: 3px solid #00FFF0;
+
+}
