@@ -7,6 +7,7 @@
     <meta name="keywords" content="Leonid, Kairgeldin, full-stack, developer, portfolio, contacts">
 </head>
 <body>
+
 <header>
     <div id="logo">Leo<span class="dot"></span></div>
     <nav>
@@ -22,7 +23,6 @@
 <main>
     <section id="hello">
         <img id="photo" src="img/Photo.png" alt="Kairgeldin Leonid">
-        <img alt="decoration" class="decoration" src="svg/helloLines.svg">
         <h1>Kairgeldin Leonid<span class="dot"></span></h1>
         <div id="helloText">
             Hello! It’s me, Kairgeldin Leonid. A full-stuck<br>
@@ -30,12 +30,14 @@
             possession for my work. I like all creative fun<br>
             and computer science.
         </div>
-        <a id="contactMe" href="#darkness">
+        <a class="contactMe">
             Contact me
         </a>
-
-        <a href="#cl" id="darkness">
-            <div id="popup">
+    </section>
+    <div class="darkness">
+        <div class="popup">
+            <div class="popup_content">
+                <a class="closeButton">x</a>
                 <h2>My contacts</h2>
                 <object>
                     <a href="https://vk.com/l.kairgeldin"><img alt="vk_icon" src="svg/VK-Icon.svg"></a>
@@ -44,11 +46,11 @@
                                                                                                      src="svg/WA-Icon.svg"></a>
                     <a href="https://github.com/Erartria"><img alt="GH_icon" src="svg/GH-Icon.svg"></a>
                 </object>
+
             </div>
-        </a>
-    </section>
+        </div>
+    </div>
     <section id="skills">
-        <img alt="decoration" class="decoration" src="svg/skillsLines.svg">
         <h2>My skills<span class="dot"></span></h2>
         <div id="skillsTable">
             <ul class="skills">
@@ -127,7 +129,6 @@
         </div>
     </section>
     <section id="projects">
-        <img alt="decoration" class="decorationRight" src="svg/skillsLines.svg" width=81px height=100%>
         <h2>Projects<span class="dot"></span></h2>
         <article>
             <h3>Portfolio web-site.</h3>
@@ -152,7 +153,6 @@
         </div>
     </section>
     <section id="education">
-        <img alt="decoration" class="decorationRightArc" src="svg/educationLines.svg" width=402px height=100%>
         <h2>Education<span class="dot"></span></h2>
         <article class="aboutEducation">
             <h3>School</h3>
@@ -177,6 +177,7 @@
         </article>
 
     </section>
+    
 </main>
 <footer>
     <ul class=contacts>
@@ -194,5 +195,6 @@
     </div>
 </footer>
 </body>
-<script type="text/javascript" src="../Portfolio/quicksort.js"></script>
+<script type="text/javascript" src="quicksort.js"></script>
+<script type="text/javascript" src="contact_info.js"></script>
 </html>
